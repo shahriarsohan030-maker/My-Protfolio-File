@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+   
+<div class="d-flex justify-content-between ms-4 me-4 bg-success">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISBhUQExIWFhUWEBgTFhgYFRcTFRcVFhgYFxcbHRYZHSggGBonGxccITMiJSk3Li4uGB8zOjMtOCguLisBCgoKDg0OGhAQGy8lICUtKy8tLS0tMi0tLTUvLS8tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tKy0rLf/AABEIANQA7QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQYEBwECAwj/xABBEAACAgECAwUFBAkDAQkAAAABAgADEQQSBSExBgcTQVEiYXGBkRQyVKEWI0JygpKiwdGTsbJiFTRDUlNjg9Lw/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAIBAwQF/8QAIxEBAQACAQMFAQEBAAAAAAAAAAECEQMSITEEEyJBUXGRMv/aAAwDAQACEQMRAD8A3jERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQETiMwOYnEQOYnGZzAREQEREBERAREQEREBERAREQEREBERAREQEREBERA8NdqRVontbolbOfgoLH/afO36X8QPP7Zd6/fM3P3ma3wuxWoPm6iof/IwU/0k/SfPs9npsJZbXDlvfSb/AEu4h+Mv/wBQx+l3EPxl/wDqGZHYvsm3EdTYi2isVqrFihfJYkAYyPQy2Hudsx/3xP8ARP8A951yy4sbq6/xMmd7xTK+2PEA+RrLuXq24fQ8jNkd3/eEdTqhpdTtFrD9W4GFcjntI/Zb0xyPuPXVnaDg9mj4s+mswWXByv3WUjIIzMLTXtXqVsX7yOrr+8pBH5iblx4Z49mTK419TxOJgcU41p9NXuvuSvPTcwBPwXqflPmybepIRKXb3n8ND4Fjt7xU+PzAmVoO8Phtr7RqAh/9xWrH8zDb+cv28/yp6p+rVE612BkDAggjIIOQR8Zj8S4jVp9GbrnCIuMseg3EAfmQJCmVErf6ecN/F1/1f4mfo+0Wlt0L313oakba7k7VU4BwS2PIj6yrjlPpm4lYlO1XeZw1LdotZ8eaVsy/XAB+UkuC9stDq7Al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" alt="" width="50px">
+
+<div class="">
+<nav class="navbar navbar-expand-sm bg-success">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Service</a>
+        <a class="nav-link" href="#">Portfolio</a>
+         <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Blog</a>
+           <a class="nav-link" href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div>
+    <a href="#" class="btn btn-success">Get In Touch</a>
+</div>
+</div>
+<div class="row">
+<div class="col-8">
+<div class="card text-light">
+  <img src="https://t3.ftcdn.net/jpg/03/16/91/28/360_F_316912806_RCeHVmUx5LuBMi7MKYTY5arkE4I0DcpU.jpg" alt="..." width="1500px" height="400px">
+   <div class="card-img-overlay">
+  <h5> 🔵 Web Design & Development</h5>
+   <h1>We Bulid Modern<br> Website That <br> Grow <span class="text-primary">Your Business</span></h1>
+   <p>we design and develop fast, reponsive and user-friendly <br>website that help your business stand out online</p>
+   <button type="button" class="btn btn-primary btn-sm ">Explore Services →</button>
+   <button type="button" class="btn btn-dark btn-sm">View Protfolio</button><br>
+  <div class="d-inline-flex mt-4 gap-3">
+    <i class="fa-solid fa-rocket text-primary"></i>Fast Performancebr <br> Speed optimized <br>
+   <i class="fa-solid fa-anchor-circle-check text-primary"></i>Secure & Reliable <br> ssl & Security <br>
+   <i class="fa-solid fa-computer text-primary"></i>Responsive Design <br> Cowcnon
+  </div>
+</div>
+</div>
+</div>
+</div>  
+
+
+<div class="col-4 justify-content-end align-items-center card-img-overlay" style="margin-left: 1170px; margin-top: 200px;">
+<div class="text-light" style="background-color: rgb(10, 32, 46); height: 250px; width:150px; ">
+    <i class="fa-solid fa-user-group"></i>100% <br> client satisfection
+    <hr>
+    <p>✓ Clean Design</p>
+    <p> ✓ Modern & Professional</p>
+    <p> ✓ On-time Delivery</p>
+</div>
+</div>
+
+
+
+    <h5 class="text-success text-center">Our Services</h5>
+    <h1 class="text-center">What We Offer</h1>
+    <p class="text-center">We provide a wide range of services to help you establish a strong <br> online presents and grow your business.</p>
+
+<div class="d-flex ms-3 me-3 gap-2">
+
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-2  text-center" style="margin-top: 50px;">
+   <i class="fa-solid fa-computer text-primary"></i>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <h5>Website Design</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-2  text-center" style="margin-top: 50px;">
+   <i class="fa-solid fa-trophy text-primary"></i>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <h5>Website Design</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-2  text-center" style="margin-top: 50px;">
+   <i class="fa-solid fa-cart-shopping text-primary"></i>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <h5>Website Design</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="card mb-3" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-2  text-center" style="margin-top: 50px;">
+   <i class="fa-solid fa-star text-primary"></i>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <h5>Website Design</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
